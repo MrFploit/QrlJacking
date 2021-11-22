@@ -20,13 +20,12 @@
 	* `sudo mv -f geckodriver /usr/local/share/geckodriver`
 	* `sudo ln -s /usr/local/share/geckodriver /usr/local/bin/geckodriver`
 	* `sudo ln -s /usr/local/share/geckodriver /usr/bin/geckodriver`
-3. Clone the repo with `git clone https://github.com/OWASP/QRLJacking` then do `cd QRLJacking/QRLJacker`
+3. Clone the repo with `git clone https://github.com/it4min/QrlJacking` then do `cd QrlJacking`
 4. Install all the requirements with `pip install -r requirements.txt`
 5. Now you can run the framework with `python3 QrlJacker.py --help`
 
 ## Tested on
-- Ubuntu 18.04 Bionic Beaver
-- Kali Linux 2018.x and up
+- Ubuntu 20.04 LTS
 
 ## Usage
 ### Commandline arguments
@@ -183,18 +182,6 @@ The autocomplete feature that has been implemented in this framework is not the 
 - You can execute as many commands as you want at the same time by splitting them with semi-colon and many more left to be discovered by yourself.
 - Searching for modules in QRLJacker is so easy, you can search for a module by its name, something written in its description or even the author name.
 
-## Framework Maintainers
-- [@melbadry9](https://github.com/melbadry9)
-- [@samm0uda](https://github.com/samm0uda)
-- [@Lekssays](https://github.com/Lekssays)
-- [@0xGuindi](https://github.com/0xGuindi)
-- [@Kiro24](https://github.com/Kiro24)
-- [@MohamedAbdultawab](https://github.com/MohamedAbdultawab)
-- [@mohmyo](https://github.com/mohmyo)
-- [@OmarMerghany](https://github.com/OmarMerghany)
-- [@TheRubick](https://github.com/TheRubick)
-- [@mikeashi](https://github.com/mikeashi)
-- [@mxfoxawy](https://github.com/xfoxawy)
 
 ## Reporting an issue
 - Before reporting an issue, activate the debug mode by using the `debug` command or the debug commandline argument and once the error happens again, the framework will print the error trace-back. Also debug mode activates some hidden commands which will help us in debugging the error and fix the problem for you.
@@ -208,7 +195,3 @@ If you want to write your own module, read [the development docs from here](docs
 2. Write post-exploitation modules for the framework.
 3. TBD
 
-## OWASP's links reference
-https://www.owasp.org/index.php/QRLJacking
-
-https://www.owasp.org/index.php/OWASP_QRLJacker
