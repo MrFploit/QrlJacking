@@ -1,4 +1,5 @@
 #!/usr/bin/python3.7
+#Developed by i4min
 from selenium.webdriver import Firefox,FirefoxProfile
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
