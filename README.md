@@ -2,7 +2,7 @@
 ### QRLJacker is a highly customizable exploitation framework to demonstrate "[QRLJacking Attack Vector](https://www.owasp.org/index.php/Qrljacking)" to show how it is easy to hijack services that depend on QR Code as an authentication and login method, Mainly it aims to raise the security awareness regarding all the services using the QR Code as a main way to login users to different services!
 
 ## Screenshot
-![alt img](Screenshots/Screenshot1.png)
+![alt img](Screenshots/QrlJacker.png)
 [Youtube Tutorial for installing and running it](https://www.youtube.com/watch?v=sYtH5-K2JZc)
 
 ## Prerequisites before installing:
