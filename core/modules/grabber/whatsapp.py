@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Written by: Karim shoair - D4Vinci ( QrlJacker-Framework )
+#Developed by i4min
 from core.module_utils import types
 
 class info:
-    author            = "Karim Shoair (D4Vinci)"
+    author            = "it4min"
     short_description = "Whatsapp QR-sessions grabber and controller"
     full_description  = None
 
