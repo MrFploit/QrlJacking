@@ -20,7 +20,7 @@
 	* `sudo mv -f geckodriver /usr/local/share/geckodriver`
 	* `sudo ln -s /usr/local/share/geckodriver /usr/local/bin/geckodriver`
 	* `sudo ln -s /usr/local/share/geckodriver /usr/bin/geckodriver`
-3. Clone the repo with `git clone https://github.com/it4min/QrlJacking` then do `cd QrlJacking`
+3. Clone the repo with `git clone https://github.com/MrFploit/QrlJacking` then do `cd QrlJacking`
 4. Install all the requirements with `pip install -r requirements.txt`
 5. Now you can run the framework with `python3 QrlJacker.py --help`
 
